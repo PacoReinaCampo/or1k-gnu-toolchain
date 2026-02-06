@@ -43,14 +43,14 @@
 ###################################################################################
 
 # Remove Submodule
-git rm -rf or1k-gcc
-git rm -rf or1k-binutils-gdb
-git rm -rf or1k-newlib
+git rm -rf general/or1k-gcc
+git rm -rf general/or1k-newlib
+git rm -rf general/or1k-binutils-gdb
 
 # Update Submodule
 git submodule update --init --recursive --remote
 
 # Add Submodule
-git submodule add --force https://github.com/openrisc/or1k-gcc.git or1k-gcc
-git submodule add --force https://github.com/openrisc/binutils-gdb.git or1k-binutils-gdb
-git submodule add --force https://github.com/openrisc/newlib.git or1k-newlib
+git submodule add --force https://github.com/openrisc/or1k-gcc.git general/or1k-gcc
+git submodule add --force https://github.com/openrisc/newlib.git general/or1k-newlib
+git submodule add --force https://github.com/openrisc/binutils-gdb.git general/or1k-binutils-gdb
