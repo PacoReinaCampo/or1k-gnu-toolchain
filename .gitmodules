@@ -1,0 +1,9 @@
+[submodule "or1k-gcc"]
+	path = or1k-gcc
+	url = https://github.com/openrisc/or1k-gcc.git
+[submodule "or1k-binutils-gdb"]
+	path = or1k-binutils-gdb
+	url = https://github.com/openrisc/binutils-gdb.git
+[submodule "or1k-newlib"]
+	path = or1k-newlib
+	url = https://github.com/openrisc/newlib.git
