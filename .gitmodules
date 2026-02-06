@@ -1,9 +1,0 @@
-[submodule "newlib"]
-	path = newlib
-	url = https://github.com/PacoReinaCampo/or1k-newlib-toolchain
-[submodule "gcc"]
-	path = gcc
-	url = https://github.com/PacoReinaCampo/or1k-gcc-toolchain
-[submodule "binutils-gdb"]
-	path = binutils-gdb
-	url = https://github.com/PacoReinaCampo/or1k-binutils-gdb-toolchain

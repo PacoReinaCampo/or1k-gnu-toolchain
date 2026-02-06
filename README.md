@@ -1,2 +1,3 @@
 # or1k-gnu-toolchain
-GNU toolchain for OpenRISC 
+
+GNU toolchain for OpenRISC
